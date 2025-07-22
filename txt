@@ -1,0 +1,6 @@
+#NOTE 
+1. CSS Selectors
+2. CSS Layouts(grid,flexbox) responsive design
+3. Box Model (margins,padding)
+4. Typography (font-size, font-family, font-weight)
+5. Non-semantic elements (divs,)

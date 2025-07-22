@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Layout Designing</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        p {
+            font-size: 20px;
+        }
+
+        .aboutus-grid {
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: #f3f3f3;
+            align-items: center;
+            column-gap: 10px;
+            padding: 100px;
+        }
+
+        img {
+            width: 70%;
+            border-radius: 30px;
+        }
+
+        .content {
+            background-color: darkgrey;
+            text-align: center;
+            padding: 80px;
+            font-weight: 400
+        }
+
+        .image {
+
+            padding: 10px;
+        }
+
+        span {
+            color: blueviolet;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        /* media queries */
+        @media screen and (max-width:850px) {
+            .content {
+                background-color: rgb(85, 178, 39);
+                padding: 6px;
+                margin: 5px;
+                text-align: left;
+
+            }
+
+            .aboutus-grid {
+                grid-template-columns: auto;
+                padding: 10px;
+            }
+
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 30px;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- About Us -->
+
+    <section>
+        <div class="aboutus-grid">
+            <!-- content -->
+            <div class="content">
+                <p>Over the next <span>5 years,</span></p>
+                <p>we will create 100,000 jobs for young women,</p>
+                <p>including refugees and females with disabilities.
+                </p>
+                <p> This will be achieved by carefully </p>
+                <p>working with communities
+                </p>
+                </p>
+                <p>and their people to bring lasting change.</p>
+            </div>
+            <!-- image -->
+            <div class="image">
+                <img src="https://witu.org/sites/default/files/images/CLF_9793-min.jpg" />
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+</body>
+
+</html>
